@@ -46,35 +46,35 @@ function checkWinner() {
 
     if (
         board[0] != "" && board[0] == board[1] && board[1] == board[2]) {
-        winner.innerHTML = "player " + player + " Wins!";
+        winner.innerHTML = "Player " + player + " Wins!";
         gameOver = true;
     }
     else if (board[3] != "" && board[3] == board[4] && board[4] == board[5]) {
-        winner.innerHTML = "player " + player + " Wins!";
+        winner.innerHTML = "Player " + player + " Wins!";
         gameOver = true;
     }
     else if (board[6] != "" && board[6] == board[7] && board[7] == board[8]) {
-        winner.innerHTML = "player " + player + " Wins!";
+        winner.innerHTML = "Player " + player + " Wins!";
         gameOver = true;
     }
     else if (board[0] != "" && board[0] == board[3] && board[3] == board[6]) {
-        winner.innerHTML = "player " + player + " Wins!";
+        winner.innerHTML = "Player " + player + " Wins!";
         gameOver = true;
     }
     else if (board[1] != "" && board[1] == board[4] && board[4] == board[7]) {
-        winner.innerHTML = "player " + player + " Wins!";
+        winner.innerHTML = "Player " + player + " Wins!";
         gameOver = true;
     }
     else if (board[2] != "" && board[2] == board[5] && board[5] == board[8]) {
-        winner.innerHTML = "player " + player + " Wins!";
+        winner.innerHTML = "Player " + player + " Wins!";
         gameOver = true;
     }
     else if (board[0] != "" && board[0] == board[4] && board[4] == board[8]) {
-        winner.innerHTML = "player " + player + " Wins!";
+        winner.innerHTML = "Player " + player + " Wins!";
         gameOver = true;
     }
     else if (board[2] != "" && board[2] == board[4] && board[4] == board[6]) {
-        winner.innerHTML = "player " + player + " Wins!";
+        winner.innerHTML = "Player " + player + " Wins!";
         gameOver = true;
     }
     if (
