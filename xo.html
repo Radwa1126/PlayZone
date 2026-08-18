@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X O Game</title>
+    <link rel="stylesheet" href="xo.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Main page</a>
+            <a href="xo.html">X-O</a>
+            <a href="rps.html">Rock, Paper and Scissors</a>
+            <a href="guess.html">Guess The Number</a>
+        </nav>
+        <hr>
+    </header>
+    <h1>Welcome X - O Game!</h1>
+    <div id="description">
+        <h2>--This Game IS For Two Players And It Starts With Player X --</h2>
+        <h2>Get three in a row and win the game!</h2>
+        <h2>Good Luck & Have Fun!</h2>
+    </div><br>
+
+    <div id="board">
+        <h2 id="playerX">player X Score: 0</h2><br>
+        <section>
+            <div id="b">
+            <button class="btn"> </button>
+            <button class="btn"> </button>
+            <button class="btn"> </button>
+            <br>
+            <button class="btn"> </button>
+            <button class="btn"> </button>
+            <button class="btn"> </button>
+            <br>
+            <button class="btn"> </button>
+            <button class="btn"> </button>
+            <button class="btn"> </button>
+            </div>
+
+            <h2 id="winner"></h2>
+
+            <button id="play_again" onclick="PlayAgain()">Play Again??</button>
+        </section>
+        <h2 id="playerO">player O Score: 0</h2><br>
+    </div>
+
+    <footer>
+        <hr>
+        <h3>Created by Radwa Kamel</h3>
+        <h3>CS50 Project</h3>
+    </footer>
+
+    <script src="xo.js"></script>
+</body>
+
+</html>

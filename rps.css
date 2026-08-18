@@ -1,0 +1,41 @@
+img{
+    border-radius: 10px;
+    border: solid 2px;
+    border-color: rgb(137, 1, 149);
+    max-width: 250px;
+    margin: auto;
+}
+main{
+    min-height: 80vh;
+}
+hr{
+border-color: rgb(137, 1, 149);
+}
+#battle{
+    display: flex;
+}
+section{   
+    margin: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+button{
+    border: solid 2px;
+    border-radius: 20px;
+    border-color:rgb(137, 1, 149);
+    max-width: 300px;
+    margin: 20px;
+    padding: 10px;
+    background-color:#0b0f19 ;
+   color: rgb(200, 200, 200);
+}
+button:hover{
+    box-shadow: 10px 20px 30px rgba(137, 1, 149, 0.445);
+    transform: scale(1.3);
+}
+h1{
+    margin: auto;
+}
+#result,#description h2{
+    color: rgb(137, 1, 149);
+}

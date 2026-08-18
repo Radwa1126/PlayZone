@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number Game</title>
+    <link rel="stylesheet" href="guess.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav>
+                <a href="index.html">Main page</a>
+                <a href="xo.html">X-O</a>
+                <a href="rps.html">Rock, Paper and Scissors</a>
+                <a href="guess.html">Guess The Number</a>
+            </nav>
+            <hr>
+        </header>
+        <h1>Guess The Number Game</h1>
+        <hr>
+        <input type="number" id="user_input" placeholder="Enter your guess..">
+        <button id="guess" onclick="guess_the_number()">Guess..</button>
+        <br><br><br>
+        <div>
+            <p>Welcome to Guess The Number!</p>
+            <p>Pick a number between 1 and 10. You have 5 tries to find the secret number. Good luck!</p>
+            <h2 id="user_guess"></h2>
+            <h2 id="winner"></h2>
+            <h2 id="score"></h2>
+        </div>
+        <br><br>
+        <button id="play_again">Play Again??</button>
+
+    </main>
+    <footer>
+        <hr>
+        <h3>Created by Radwa Kamel</h3>
+        <h3>CS50 Project</h3>
+    </footer>
+
+    <script src="guess.js"></script>
+</body>
+
+</html>
