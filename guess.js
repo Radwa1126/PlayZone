@@ -1,4 +1,5 @@
-
+let play_again = document.querySelector("#play_again");
+play_again.style.display="none";
 let button = document.querySelector("#guess");
 let input = document.querySelector("#user_input");
 let random = Math.floor(Math.random() * 10);
@@ -9,9 +10,6 @@ let guess_the_number=function(){
     welcome.forEach(w => {
         w.innerHTML="";
     });
-let play_again = document.querySelector("#play_again");
-play_again.style.display="none";
-
  document.getElementById("user_guess").innerHTML="Your Guess: "+ input.value;
     if ( input.value===""||input.value<1 || input.value >10) {
         alert("please enter a number between 1 and 10")
